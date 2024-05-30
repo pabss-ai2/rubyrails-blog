@@ -1,5 +1,5 @@
 class Comment < ApplicationRecord
-  includ Visible
+  include Visible
 
   belongs_to :article
 end
